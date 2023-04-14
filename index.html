@@ -387,8 +387,8 @@
     </footer>
 
     <!-- Modal window -->
-    <!-- <div class="backdrop is-hidden" data-modal> -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop" data-modal> -->
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="close-btn-icon">
@@ -419,7 +419,7 @@
           <div class="modal-field">
             <label for="user-phone" class="input-text">Phone</label>
             <div class="input-wrap">
-              <input type="tel" name="user-phone" id="user-phone" class="modal-input" placeholder="Enter phone" />
+              <input type="tel" name="user-phone" id="user-phone" class="modal-input" placeholder="Enter phone" required/>
               <svg class="modal-icon" width="18" height="24">
                 <use href="./images/sprite.svg#icon-phone"></use>
               </svg>
@@ -429,7 +429,7 @@
           <div class="modal-field">
             <label for="user-email" class="input-text">Email</label>
             <div class="input-wrap">
-              <input type="email" name="user-email" id="user-email" class="modal-input" placeholder="Enter email" />
+              <input type="email" name="user-email" id="user-email" class="modal-input" placeholder="Enter email" required/>
               <svg class="modal-icon" width="18" height="24">
                 <use href="./images/sprite.svg#icon-email"></use>
               </svg>
@@ -442,7 +442,7 @@
           </div>
 
           <div class="modal-field">
-            <input type="checkbox" name="privacy" id="privacy" class="input-chech visually-hidden" value="true" />
+            <input type="checkbox" name="privacy" id="privacy" class="input-chech visually-hidden" value="true" required/>
             <label for="privacy" class="check-text">
               <span>
                 <svg class="check-icon" width="10" height="8">
