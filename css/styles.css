@@ -651,11 +651,12 @@ body {
   color: var(--second-text-color);
   fill: var(--second-text-color);
   transition: background-color var(--transition-duration-func);
-  }
+}
 
-  .subscribe-btn:hover, ,.subscribe-btn:focus {
-    background-color: var(--color-btn-hover);
-  }
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: var(--color-btn-hover);
+}
 
 /* --------- FILTER  ----------------------------------------- */
 
